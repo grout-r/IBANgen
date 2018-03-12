@@ -1,9 +1,94 @@
-{
-  "FR":
+[
   {
-    "N" : 5,
-    "N" : 5,
-    "C" : 11,
-    "N" : 2
+    "code" : "FR",
+    "name": "France",
+    "structure":
+    [
+      {
+        "type":"number",
+        "repeat":5
+      },
+      {
+        "type":"number",
+        "repeat":5
+      },
+      {
+        "type":"alphanum",
+        "repeat":11
+      },
+      {
+        "type":"number",
+        "repeat":2
+      }
+    ]
+  },
+  {
+    "code" : "IT",
+    "name": "Italy",
+    "structure":
+    [
+      {
+        "type":"letter",
+        "repeat":1
+      },
+      {
+        "type":"number",
+        "repeat":5
+      },
+      {
+        "type":"number",
+        "repeat":5
+      },
+      {
+        "type":"alphanum",
+        "repeat":12
+      }
+    ]
+  },
+    {
+    "code" : "GB",
+    "name": "United Kingdom",
+    "structure":
+    [
+      {
+        "type":"letter",
+        "repeat":4
+      },
+      {
+        "type":"number",
+        "repeat":6
+      },
+      {
+        "type":"number",
+        "repeat":8
+      }
+    ]
+  },
+  {
+    "code" : "BR",
+    "name": "Brazil",
+    "structure":
+    [
+      {
+        "type":"number",
+        "repeat":8
+      },
+      {
+        "type":"number",
+        "repeat":5
+      },
+      {
+        "type":"number",
+        "repeat":10
+      },
+      {
+        "type":"letter",
+        "repeat":1
+      },
+      {
+        "type":"alphanum",
+        "repeat":1
+      }
+    ]
   }
-}
+]
